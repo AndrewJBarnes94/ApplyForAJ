@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Apply for AJ</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #fdf6f0, #ffe4ec);
+      color: #333;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+
+    header {
+      background-color: #ff69b4;
+      color: white;
+      padding: 2rem 1rem;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+
+    header p {
+      font-size: 1.2rem;
+    }
+
+    .container {
+      max-width: 600px;
+      margin: 2rem auto;
+      padding: 2rem;
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+    }
+
+    label {
+      display: block;
+      text-align: left;
+      margin: 1rem 0 0.25rem;
+      font-weight: bold;
+    }
+
+    input, textarea, select {
+      width: 100%;
+      padding: 0.75rem;
+      border-radius: 8px;
+      border: 1px solid #ccc;
+      font-size: 1rem;
+    }
+
+    button {
+      margin-top: 2rem;
+      background-color: #ff69b4;
+      color: white;
+      border: none;
+      padding: 1rem 2rem;
+      font-size: 1rem;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    button:hover {
+      background-color: #e055a2;
+    }
+
+    footer {
+      margin: 2rem 0;
+      font-size: 0.9rem;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Apply for AJ</h1>
+    <p>Flexible hours. Competitive perks. Terrible jokes guaranteed.</p>
+  </header>
+
+  <div class="container">
+    <form>
+      <label for="name">Name or Nickname</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="insta">Instagram Handle</label>
+      <input type="text" id="insta" name="insta">
+
+      <label for="firstDate">Describe your ideal first date</label>
+      <textarea id="firstDate" name="firstDate" rows="3"></textarea>
+
+      <label for="perks">Preferred Benefits Package</label>
+      <select id="perks" name="perks">
+        <option value="hugs">Hugs</option>
+        <option value="memes">Memes & Validation</option>
+        <option value="snacks">Late Night Snacks</option>
+        <option value="chaos">Emotional Chaos (opt-out available)</option>
+      </select>
+
+      <label for="pickupLine">Pickup line that would actually work on you</label>
+      <input type="text" id="pickupLine" name="pickupLine">
+
+      <button type="submit">Submit Application 💘</button>
+    </form>
+  </div>
+
+  <footer>
+    <p>© 2025 AJ Inc. HR will ghost you promptly if you're not a good fit.</p>
+  </footer>
+</body>
+</html>
